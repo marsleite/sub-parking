@@ -39,7 +39,7 @@ O sistema será dividido em três camadas:
 ## Endpoints da API
 
 - **POST `/parking`:** Registra a entrada do veículo, retorna o ID da transação.
-- **PUT `/parking/{id}/outline`:** Registra a saída do veículo, calcula o valor devido e retorna o valor.
+- **PUT `/parking/checkout`:** Registra a saída do veículo, calcula o valor devido e retorna o valor.
 - **GET `/transactions/{placa}`:** Retorna todas as transações associadas a uma placa específica.
 
 ## Considerações de Performance

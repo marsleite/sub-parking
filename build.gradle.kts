@@ -46,6 +46,7 @@ subprojects {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
     implementation("org.jetbrains.kotlinx:kover-gradle-plugin:0.7.4")
     implementation("org.springframework.data:spring-data-commons:3.2.4")
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
 
     implementation("org.hibernate:hibernate-validator:8.0.1.Final")
     implementation("org.apache.logging.log4j:log4j-core:2.14.1")
